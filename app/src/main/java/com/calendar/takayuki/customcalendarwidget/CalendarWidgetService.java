@@ -33,10 +33,10 @@ public class CalendarWidgetService extends RemoteViewsService {
         super.onCreate();
     }
 
-    @Override
-    public void onStart(Intent intent, int startId) {
-        super.onStart(intent, startId);
-    }
+//    @Override
+//    public void onStart(Intent intent, int startId) {
+//        super.onStart(intent, startId);
+//    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -54,39 +54,43 @@ public class CalendarWidgetService extends RemoteViewsService {
         super.onConfigurationChanged(newConfig);
     }
 
-    @Override
-    public void onLowMemory() {
-        super.onLowMemory();
-    }
-
-    @Override
-    public void onTrimMemory(int level) {
-        super.onTrimMemory(level);
-    }
-
-    @Override
-    public boolean onUnbind(Intent intent) {
-        super.onUnbind(intent);
-        return false;
-    }
-
-    @Override
-    public void onRebind(Intent intent) {
-        super.onRebind(intent);
-    }
-
-    @Override
-    public void onTaskRemoved(Intent rootIntent) {
-        super.onTaskRemoved(rootIntent);
-    }
-
-    @Override
-    protected void dump(FileDescriptor fd, PrintWriter writer, String[] args) {
-       super.dump(fd, writer, args);
-    }
-
+//    @Override
+//    public void onLowMemory() {
+//        super.onLowMemory();
+//    }
+//
+//    @Override
+//    public void onTrimMemory(int level) {
+//        super.onTrimMemory(level);
+//    }
+//
+//    @Override
+//    public boolean onUnbind(Intent intent) {
+//        super.onUnbind(intent);
+//        return false;
+//    }
+//
+//    @Override
+//    public void onRebind(Intent intent) {
+//        super.onRebind(intent);
+//    }
+//
+//    @Override
+//    public void onTaskRemoved(Intent rootIntent) {
+//        super.onTaskRemoved(rootIntent);
+//    }
+//
+//    @Override
+//    protected void dump(FileDescriptor fd, PrintWriter writer, String[] args) {
+//       super.dump(fd, writer, args);
+//    }
+//
 //    @Override
 //    public IBinder onBind(Intent intent) {
 //        super.onBind(intent);
+//    }
+
+//    class HandleEvent {
+//        public void
 //    }
 }
